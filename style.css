@@ -21,6 +21,7 @@ body {
 }
 
 .principal {
+    text-align: center;
     align-items: center;
     text-align: center;
 }
@@ -57,7 +58,9 @@ body {
 }
 
 .container__imagem {
-    max-width: fit-content;
+    border-radius: 5px;
+    border: #C0C0C0 solid;
+    width: 50%;
     margin: 1em 0 2em 0;
 }
 
@@ -66,7 +69,17 @@ body {
 }
 
 .secundario__imagem {
- width: 80%;
+    border-radius: 5px;
+    border: #C0C0C0 solid;
+    width: 80%;
+}
+
+.dois{
+   height: 80vh;
+}
+
+.tres{
+    height: 80vh;
 }
 
 .secundario {
@@ -101,7 +114,12 @@ body {
     margin: 5em 0;
 }
 
+.dispositivos__lista img{
+ height: 300px;
+}
+
 .dispositivos {
+    margin-top: 10%;
     text-align: center;
 }
 
@@ -150,4 +168,10 @@ body {
 .container__botao:hover {
     background-color: var(--botao-azul-efeito);
     color: var(--cor-de-fundo);
+}
+.rodape_logo{
+    color: var(--botao-azul);
+    font-size: 32px;
+    margin-bottom: 30px;
+    font-weight: 700;
 }
